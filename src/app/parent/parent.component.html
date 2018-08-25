@@ -1,0 +1,7 @@
+<p>
+  parent works!
+</p>
+
+<button (click)="parentSubject.next($event)" > click me </button>
+
+<childHere [nameObservable]="parentObservable" ></childHere>
